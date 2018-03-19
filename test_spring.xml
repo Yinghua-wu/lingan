@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="Testsuite"  preserve-order="true">
+	 <test name="testNG" preserve-order="true">
+		<classes>
+			<class name="org.testJenkins.TestSpring" >
+			 	<methods>
+					<include name="testBefore"/>
+					<include name="testContent"/>
+					<include name="test2"/>
+					<include name="testAfter"/>
+				</methods> 
+			</class>
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+      <classes>
+             <class name="org.testJenkins.TestSpringmvc" />
+      </classes>
+   </test> 
+</suite>

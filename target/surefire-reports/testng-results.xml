@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testsuite" duration-ms="17249" started-at="2018-03-12T05:50:59Z" finished-at="2018-03-12T05:51:16Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="17249" started-at="2018-03-12T05:50:59Z" finished-at="2018-03-12T05:51:16Z">
+      <class name="org.testJenkins.TestSpringmvc">
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:org.testJenkins.TestSpringmvc@2c6a3f77]" name="testBefore" is-config="true" duration-ms="9202" started-at="2018-03-12T13:50:59Z" finished-at="2018-03-12T13:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="testContent()[pri:0, instance:org.testJenkins.TestSpringmvc@2c6a3f77]" name="testContent" duration-ms="7439" started-at="2018-03-12T13:51:08Z" finished-at="2018-03-12T13:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContent -->
+        <test-method status="PASS" signature="testAfter()[pri:0, instance:org.testJenkins.TestSpringmvc@2c6a3f77]" name="testAfter" is-config="true" duration-ms="586" started-at="2018-03-12T13:51:15Z" finished-at="2018-03-12T13:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfter -->
+      </class> <!-- org.testJenkins.TestSpringmvc -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Testsuite -->
+</testng-results>

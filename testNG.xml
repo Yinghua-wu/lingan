@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+
+
+<!-- <suite name="Tores Suite" preserve-order="true">
+
+	<parameter name="tores.browser" value="ie" />
+	<parameter name="tores.browserVersion" value="9" />
+	<parameter name="tores.baseurl" value="http://10.8.15.100:8080" />
+	<parameter name="tores.timeout" value="10" />
+	<parameter name="tores.isGrid" value="true" />
+	<parameter name="tores.hubUrl" value="http://10.12.17.100:4444/wd/hub" />
+	<parameter name="tores.isScreenImg" value="true" />
+
+	<suite-files>
+
+		<suite-file path="test_headless.xml" />
+        <suite-file path="test_spring.xml" />
+		<suite-file path="test_springmvc.xml" />
+	
+		
+
+
+	</suite-files>
+
+</suite>
+ -->
+ 
+ 
+<suite name="Testsuite" parallel="tests" preserve-order="true">
+	 <!-- <test name="testNG" preserve-order="true">
+		<classes>
+			<class name="org.testJenkins.TestSpring" >
+				<methods>
+					<include name="testBefore"/>
+					<include name="testContent"/>
+					<include name="testAfter"/>
+				</methods> 
+			</class>
+		</classes>
+	</test> -->
+	 <!-- <test name="FirefoxTest">
+      <parameter name="browser" value="firefox" />
+      <classes>
+             <class name="org.testJenkins.TestGrid" />
+      </classes>
+   </test> --> 
+  
+  
+   
+  <!--  <test name="FirefoxTest">
+      <parameter name="browser" value="firefox" />
+      <classes>
+             <class name="org.testJenkins.TestGrid" />
+      </classes>
+   </test> -->
+   
+    <!-- <test name="FirefoxTest">
+      <parameter name="browser" value="firefox" />
+      <classes>
+             <class name="org.testJenkins.Webdriverdemo1" />
+      </classes>
+   </test>  -->
+   
+    <test name="FirefoxTest">
+      <classes>
+             <class name="org.testJenkins.TestSpringmvc" />
+      </classes>
+   </test> 
+
+  <!--<test name="ChromeTest">
+      <parameter name="browser" value="firefox" />
+      <classes>
+             <class name="org.testJenkins.TestGrid" />
+      </classes>
+   </test>-->
+   <!-- <test name="HtmlUnitTest">
+      <parameter name="browser" value="HtmlUnit" />
+      <classes>
+             <class name="org.testJenkins.TestHtmlUnit" />
+      </classes>
+   </test> -->
+    <!-- <test name="TestHeadless">
+      <parameter name="browser" value="Headless" />
+      <classes>
+             <class name="org.testJenkins.TestHeadless" />
+      </classes>
+   </test> -->
+   <!-- <test name="TestGridHeadless">
+      <parameter name="browser" value="GridHeadless" />
+      <classes>
+             <class name="org.testJenkins.TestGridHeadless" />
+      </classes>
+   </test> -->
+   <!-- <test name="IETest">
+      <parameter name="browser" value="ie" />
+      <classes>
+             <class name="org.testJenkins.TestGrid" />
+      </classes>
+   </test>  -->
+</suite> 
+ 
+ 
+

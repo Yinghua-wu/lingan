@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Testsuite]" parallel="tests">
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <classes>
+      <class name="org.testJenkins.TestSpringmvc">
+        <methods>
+          <include name="testBefore"/>
+          <include name="testContent"/>
+        </methods>
+      </class> <!-- org.testJenkins.TestSpringmvc -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Testsuite] -->
