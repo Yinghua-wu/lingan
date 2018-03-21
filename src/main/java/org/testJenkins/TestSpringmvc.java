@@ -26,11 +26,11 @@ public class TestSpringmvc {
 		//System.setProperty("webdriver.gecko.driver", "driver\\geckodriver.exe");
 		
 		
-		String PROXY = "192.168.30.100:8090";
+		/*String PROXY = "192.168.30.100:8090";
         org.openqa.selenium.Proxy proxy = new org.openqa.selenium.Proxy();
         proxy.setHttpProxy(PROXY)
              .setFtpProxy(PROXY)
-             .setSslProxy(PROXY);
+             .setSslProxy(PROXY);*/
  
 
         
@@ -42,7 +42,7 @@ public class TestSpringmvc {
 		DesiredCapabilities cap = DesiredCapabilities.firefox();
 		//cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
         //cap.setCapability("ignoreProtectedModeSettings", true);
-        cap.setCapability(CapabilityType.PROXY, proxy);
+       // cap.setCapability(CapabilityType.PROXY, proxy);
 		//cap.setBrowserName("firefox");
 		driver = new RemoteWebDriver(new URL(Node), cap);
 		
