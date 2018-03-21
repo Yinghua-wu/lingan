@@ -26,7 +26,7 @@ public class TestSpringmvc {
 		//System.setProperty("webdriver.gecko.driver", "driver\\geckodriver.exe");
 		
 		
-		String PROXY = "192.168.30.100:8090";
+		String PROXY = "127.0.0.1:8090";
         org.openqa.selenium.Proxy proxy = new org.openqa.selenium.Proxy();
         proxy.setHttpProxy(PROXY)
              .setFtpProxy(PROXY)
