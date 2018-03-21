@@ -42,7 +42,7 @@ public class TestSpringmvc {
 		DesiredCapabilities cap = DesiredCapabilities.firefox();
 		//cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
         //cap.setCapability("ignoreProtectedModeSettings", true);
-        cap.setCapability(CapabilityType.PROXY, proxy);
+      //  cap.setCapability(CapabilityType.PROXY, proxy);
 		//cap.setBrowserName("firefox");
 		driver = new RemoteWebDriver(new URL(Node), cap);
 		
